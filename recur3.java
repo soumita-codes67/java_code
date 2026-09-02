@@ -1,0 +1,18 @@
+import java.util.*;
+class recur3{
+    int numm(int n){
+        if(n==0 || n==1){
+            return 1;
+        }
+        return n * numm(n-1);
+    }
+    public static void main(String[] args) {
+        recur3 ob = new recur3();
+        Scanner sc= new Scanner(System.in);
+        System.out.print("enter number: ");
+        int n=sc.nextInt();
+        int val=ob.numm(n);
+        System.out.println(val);
+        sc.close();
+    }
+}
