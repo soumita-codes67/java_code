@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class index{
+class index2{
     
     void pattern(int a){
             for(int i=0;i<a;i++){
@@ -19,7 +19,7 @@ class invertedHalfPyramid{
         System.out.print("enter row: ");
         int a= a1.nextInt();
         
-        index ind= new index();
+        index2 ind= new index2();
         ind.pattern(a);
 
         a1.close();
